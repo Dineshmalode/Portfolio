@@ -1,0 +1,224 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Dinesh Malode | Portfolio</title>
+
+<style>
+html { scroll-behavior: smooth; }
+
+body {
+    margin: 0;
+    font-family: 'Segoe UI', sans-serif;
+    background: #0f172a;
+    color: white;
+}
+
+/* HERO */
+.hero {
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    background: linear-gradient(135deg, #020617, #2563eb);
+}
+
+.hero h1 { font-size: 3rem; }
+.hero span { color: #22c55e; }
+
+.hero p {
+    margin: 10px 0;
+    color: #cbd5f5;
+}
+
+.btn {
+    display: inline-block;
+    margin-top: 15px;
+    padding: 10px 20px;
+    background: #22c55e;
+    color: black;
+    text-decoration: none;
+    border-radius: 5px;
+    font-weight: bold;
+}
+
+/* NAV */
+nav {
+    position: sticky;
+    top: 0;
+    background: #020617;
+    padding: 10px;
+    text-align: center;
+}
+
+nav a {
+    color: white;
+    margin: 0 15px;
+    text-decoration: none;
+}
+
+/* SECTION */
+section {
+    padding: 60px 20px;
+    max-width: 1000px;
+    margin: auto;
+}
+
+h2 {
+    text-align: center;
+    margin-bottom: 30px;
+}
+
+/* ABOUT */
+.about {
+    text-align: center;
+    color: #cbd5f5;
+}
+
+/* SKILLS */
+.skills {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+    gap: 15px;
+}
+
+.skill-box {
+    background: #1e293b;
+    padding: 20px;
+    border-radius: 10px;
+    text-align: center;
+    transition: 0.3s;
+}
+
+.skill-box:hover {
+    background: #22c55e;
+    color: black;
+}
+
+/* PROJECTS */
+.projects {
+    display: grid;
+    gap: 20px;
+}
+
+.project {
+    background: #1e293b;
+    padding: 20px;
+    border-radius: 10px;
+}
+
+.project a {
+    display: inline-block;
+    margin-top: 10px;
+    padding: 8px 15px;
+    background: #22c55e;
+    color: black;
+    text-decoration: none;
+    border-radius: 5px;
+}
+
+/* CONTACT */
+.contact {
+    text-align: center;
+}
+
+.contact a {
+    display: inline-block;
+    margin: 10px;
+    padding: 10px 15px;
+    background: #22c55e;
+    color: black;
+    text-decoration: none;
+    border-radius: 5px;
+}
+
+/* FOOTER */
+footer {
+    text-align: center;
+    padding: 15px;
+    background: #020617;
+    color: #94a3b8;
+}
+</style>
+</head>
+
+<body>
+
+<!-- HERO -->
+<div class="hero">
+    <div>
+        <h1>Hi, I'm <span>Dinesh Malode</span></h1>
+        <p>AWS Cloud & DevOps Engineer</p>
+        <a href="#about" class="btn">View Portfolio</a>
+    </div>
+</div>
+
+<!-- NAV -->
+<nav>
+    <a href="#about">About</a>
+    <a href="#skills">Skills</a>
+    <a href="#projects">Projects</a>
+    <a href="#contact">Contact</a>
+</nav>
+
+<!-- ABOUT -->
+<section id="about">
+    <h2>About Me</h2>
+    <p class="about">
+        Motivated AWS Cloud & DevOps fresher with hands-on experience in building and deploying cloud applications on AWS.
+        Strong foundation in Linux, Git, and AWS services.
+    </p>
+</section>
+
+<!-- SKILLS -->
+<section id="skills">
+    <h2>Skills</h2>
+    <div class="skills">
+        <div class="skill-box">AWS (EC2, S3, Lambda)</div>
+        <div class="skill-box">IAM, VPC, API Gateway</div>
+        <div class="skill-box">DynamoDB, Cognito</div>
+        <div class="skill-box">Linux, Git, Docker</div>
+        <div class="skill-box">Python, Java</div>
+        <div class="skill-box">CI/CD (GitHub Actions)</div>
+    </div>
+</section>
+
+<!-- PROJECTS -->
+<section id="projects">
+    <h2>Projects</h2>
+    <div class="projects">
+
+        <div class="project">
+            <h3>AWS File Sharing App</h3>
+            <p>Cloud-based file sharing system using S3, Lambda, API Gateway, DynamoDB, Cognito.</p>
+            <a href="https://github.com/Dineshmalode/File-sharing-app-with-aws-cloud" target="_blank">View Project</a>
+        </div>
+
+        <div class="project">
+            <h3>Online Auction System</h3>
+            <p>Real-time bidding application with Firebase integration.</p>
+            <a href="https://github.com/Dineshmalode/my_project" target="_blank">View Project</a>
+        </div>
+
+    </div>
+</section>
+
+<!-- CONTACT -->
+<section id="contact">
+    <h2>Contact Me</h2>
+    <div class="contact">
+        <a href="tel:9579618486">📞 Call</a>
+        <a href="mailto:dineshmalode68@gmail.com">📧 Email</a>
+        <a href="https://github.com/Dineshmalode" target="_blank">💻 GitHub</a>
+        <a href="https://linkedin.com/in/dinesh-malode-6717582b4" target="_blank">💼 LinkedIn</a>
+    </div>
+</section>
+
+<footer>
+    <p>© 2026 Dinesh Malode</p>
+</footer>
+
+</body>
+</html>
